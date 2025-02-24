@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\hoaxify\web-service"/>
+			<item value="C:\restApi\spring-rest-api"/>
+			<item value="C:\campSpring2\projeGiris"/>
+			<item value="C:\campSpring2\projeAcilis"/>
+			<item value="C:\campspring2\projeAcilis"/>
+			<item value="C:\campspring2\campspring2"/>
+			<item value="C:\springprojegiris\SpringProje"/>
+			<item value="C:\campSpring\rentACar"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="1220"/>
+		<item key="y" value="170"/>
+	</section>
+</section>
