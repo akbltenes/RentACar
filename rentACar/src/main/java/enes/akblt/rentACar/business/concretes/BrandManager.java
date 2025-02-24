@@ -17,16 +17,12 @@ import lombok.AllArgsConstructor;
 public class BrandManager implements BrandService{
 	private BrandRepository brandRepository;
 	
-	//@Autowired
-	//public BrandManager(BrandRepository brandRepository) {
-		//this.brandRepository=brandRepository;
-	//} //surada contructorla cagırmak yerine lombok kullanabiliriz
 	
 	@Override
 	public List<GetAllBrandResponse> getAll() {
-		List<Brand> brands=brandRepository.findAll(); //bize bir marka nesneleri geliyor
+		List<Brand> brands=brandRepository.findAll();
 		List<GetAllBrandResponse> brandsResponse=new ArrayList<GetAllBrandResponse>();
-		// bizim bunu listelememiz gerektiği için arraylist newliypruz
+		 
 		for (Brand brand : brands) {
 		GetAllBrandResponse responseItem=new GetAllBrandResponse();	
 		responseItem.setId(brand.getId());
