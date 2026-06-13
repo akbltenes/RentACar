@@ -4,8 +4,8 @@ Bu proje, bir araç kiralama sisteminin backend altyapısını oluşturmak amac�
 
 ## Technologies Used
 
-* Java 17+
-* Spring Boot 3.x
+* Java 23
+* Spring Boot
 * Spring Data JPA
 * ModelMapper (Entity-DTO Mapping)
 * Maven
